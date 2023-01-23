@@ -227,36 +227,6 @@
   border-radius: 10px;
   margin-bottom: 8rem;
 }
-.prices-free h5 {
-  color: #1d293f;
-  text-transform: capitalize;
-}
-.prices-enterprise h5 {
-  color: #1d293f;
-}
-.prices-free a,
-.prices-enterprise a {
-  color: #5454d4;
-}
-.prices-free p,
-.prices-enterprise p {
-  color: #696871;
-}
-.prices-premium {
-  background: #ff7143;
-}
-.prices-premium h5,
-.prices-premium a,
-.prices-premium p {
-  color: #ffffff;
-}
-
-.prices-free button,
-.prices-enterprise button {
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
-  color: #5454d4;
-}
 .prices-premium button {
   background: #9f3919;
   border: 1px solid #9f3919;
@@ -290,3 +260,87 @@
   text-transform: capitalize;
   border-radius: 10px;
 }
+.prices-free h5 {
+  color: #1d293f;
+  text-transform: capitalize;
+}
+.prices-enterprise h5 {
+  color: #1d293f;
+}
+.prices-free a,
+.prices-enterprise a {
+  color: #5454d4;
+}
+.prices-free p,
+.prices-enterprise p {
+  color: #696871;
+}
+.prices-premium {
+  background: #ff7143;
+}
+.prices-premium h5,
+.prices-premium a,
+.prices-premium p {
+  color: #ffffff;
+}
+
+.prices-free button,
+.prices-enterprise button {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #5454d4;
+}
+
+@media (max-width: 980px) {
+  /*navigation style*/
+  .navigation {
+    justify-content: space-around;
+  }
+  .navigation-meniu {
+    display: none;
+  }
+
+  /*header style*/
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*main-logo style*/
+  .main-logo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*subscription style*/
+  .subscription {
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscription-text {
+    max-width: 980px;
+  }
+
+  /*metrics*/
+  .metrics {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*instruments*/
+  .instruments {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*plans style*/
+  .plans {
+    flex-direction: column;
+    align-items: center;
+  }
+  /*prices style*/
+  .prices {
+    flex-direction: column;
+    align-items: center;
+  }
+} ;
